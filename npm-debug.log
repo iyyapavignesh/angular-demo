@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'primeng/autocomplete',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData primeng/autocomplete
+8 silly fetchOtherPackageData primeng/autocomplete
+9 silly cache add args [ 'primeng/autocomplete', null ]
+10 verbose cache add spec primeng/autocomplete
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'primeng/autocomplete',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'primeng/autocomplete',
+11 silly cache add   spec: 'github:primeng/autocomplete',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:primeng/autocomplete.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/primeng/autocomplete.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/primeng/autocomplete.git',
+11 silly cache add      gitUrl: 'git://github.com/primeng/autocomplete.git',
+11 silly cache add      shortcut: 'github:primeng/autocomplete',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/primeng/autocomplete/master/package.json' } }
+12 verbose addRemoteGit caching primeng/autocomplete
+13 verbose addRemoteGit primeng/autocomplete is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/primeng/autocomplete.git
+15 silly tryClone cloning primeng/autocomplete via git://github.com/primeng/autocomplete.git
+16 verbose tryClone git-github-com-primeng-autocomplete-git-4492dccf not in flight; caching
+17 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+18 verbose makeDirectory /root/.npm/_git-remotes creation not in flight; initializing
+19 silly makeDirectory /root/.npm/_git-remotes uid: 1000 gid: 1000
+20 info git [ 'clone',
+20 info git   '--template=/root/.npm/_git-remotes/_templates',
+20 info git   '--mirror',
+20 info git   'git://github.com/primeng/autocomplete.git',
+20 info git   '/root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-4492dccf' ]
+21 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-4492dccf: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-4492dccf'...
+21 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-4492dccf:
+21 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-4492dccf: fatal: remote error:
+21 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-4492dccf:   Repository not found.
+22 silly tryHTTPS attempting to clone git+https://github.com/primeng/autocomplete.git
+23 silly tryClone cloning primeng/autocomplete via git+https://github.com/primeng/autocomplete.git
+24 verbose tryClone git-https-github-com-primeng-autocomplete-git-40d1f3a1 not in flight; caching
+25 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+26 info git [ 'clone',
+26 info git   '--template=/root/.npm/_git-remotes/_templates',
+26 info git   '--mirror',
+26 info git   'https://github.com/primeng/autocomplete.git',
+26 info git   '/root/.npm/_git-remotes/git-https-github-com-primeng-autocomplete-git-40d1f3a1' ]
+27 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-https-github-com-primeng-autocomplete-git-40d1f3a1: Cloning into bare repository '/root/.npm/_git-remotes/git-https-github-com-primeng-autocomplete-git-40d1f3a1'...
+27 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-https-github-com-primeng-autocomplete-git-40d1f3a1:
+27 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-https-github-com-primeng-autocomplete-git-40d1f3a1: remote: Invalid username or password.
+27 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/primeng/autocomplete.git /root/.npm/_git-remotes/git-https-github-com-primeng-autocomplete-git-40d1f3a1: fatal: Authentication failed for 'https://github.com/primeng/autocomplete.git/'
+28 silly trySSH attempting to clone git@github.com:primeng/autocomplete.git
+29 silly tryClone cloning primeng/autocomplete via git@github.com:primeng/autocomplete.git
+30 verbose tryClone git-github-com-primeng-autocomplete-git-f939519f not in flight; caching
+31 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+32 info git [ 'clone',
+32 info git   '--template=/root/.npm/_git-remotes/_templates',
+32 info git   '--mirror',
+32 info git   'git@github.com:primeng/autocomplete.git',
+32 info git   '/root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f' ]
+33 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f'...
+33 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f:
+33 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f: Host key verification failed.
+33 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f: fatal: Could not read from remote repository.
+33 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f:
+33 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f: Please make sure you have the correct access rights
+33 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f: and the repository exists.
+34 silly fetchPackageMetaData Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f
+34 silly fetchPackageMetaData Host key verification failed.
+34 silly fetchPackageMetaData fatal: Could not read from remote repository.
+34 silly fetchPackageMetaData
+34 silly fetchPackageMetaData Please make sure you have the correct access rights
+34 silly fetchPackageMetaData and the repository exists.
+34 silly fetchPackageMetaData
+34 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:199:12)
+34 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+34 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+34 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+34 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+34 silly fetchPackageMetaData  error for primeng/autocomplete { Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f
+34 silly fetchPackageMetaData Host key verification failed.
+34 silly fetchPackageMetaData fatal: Could not read from remote repository.
+34 silly fetchPackageMetaData
+34 silly fetchPackageMetaData Please make sure you have the correct access rights
+34 silly fetchPackageMetaData and the repository exists.
+34 silly fetchPackageMetaData
+34 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:199:12)
+34 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+34 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+34 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:920:16)
+34 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+34 silly fetchPackageMetaData   killed: false,
+34 silly fetchPackageMetaData   code: 128,
+34 silly fetchPackageMetaData   signal: null,
+34 silly fetchPackageMetaData   cmd: 'git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f' }
+35 silly rollbackFailedOptional Starting
+36 silly rollbackFailedOptional Finishing
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f
+39 verbose stack Host key verification failed.
+39 verbose stack fatal: Could not read from remote repository.
+39 verbose stack
+39 verbose stack Please make sure you have the correct access rights
+39 verbose stack and the repository exists.
+39 verbose stack
+39 verbose stack     at ChildProcess.exithandler (child_process.js:199:12)
+39 verbose stack     at emitTwo (events.js:106:13)
+39 verbose stack     at ChildProcess.emit (events.js:191:7)
+39 verbose stack     at maybeClose (internal/child_process.js:920:16)
+39 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+40 verbose cwd /home/bsindia/openbank
+41 error Linux 3.10.0-693.el7.x86_64
+42 error argv "/usr/bin/node" "/bin/npm" "install" "primeng/autocomplete" "--save"
+43 error node v6.14.3
+44 error npm  v3.10.10
+45 error code 128
+46 error Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:primeng/autocomplete.git /root/.npm/_git-remotes/git-github-com-primeng-autocomplete-git-f939519f
+46 error Host key verification failed.
+46 error fatal: Could not read from remote repository.
+46 error
+46 error Please make sure you have the correct access rights
+46 error and the repository exists.
+47 error If you need help, you may report this error at:
+47 error     <https://github.com/npm/npm/issues>
+48 verbose exit [ 1, true ]
